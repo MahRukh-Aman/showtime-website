@@ -39,6 +39,14 @@ website_link = ""
 
 {{<image src="Model1.jpg" alt="Alt text for image">}}
 
+
+{{<section title="Project Concept">}}
+The assignment was to develop a Mixed Reality (MR), Augmented Reality (AR) or Virtual Reality (VR) training experience that places the player under cognitive, emotional or physical stress. An EmotiBit sensor is used to track the player's vital body signals. 
+
+Our team came up with the idea of a Virtual Reality space station repair mission that combines all three types of stress into a single immersive training experience.
+{{</section>}}
+
+
 {{<section title="The Mission">}}
 A space station is damaged after a micrometeorite impact. Important systems stop working and communication is lost. The player is sent outside the station to find the damage and repair the systems.
 {{</section>}}
@@ -55,7 +63,16 @@ The experience changes while the player is playing. A sensor called EmotiBit is 
 
 
 {{<section title="Development & Challenges">}}
-The main challenge was combining all parts of the game into one working VR experience, including movement in space, interaction and puzzle mechanics.
+One challenge was finding the right level of detail for the 3D models so they looked good and matched the overall style of the project. Several iterations were needed to arrange the UVs in a way that avoided blurry textures in areas where the player spends most of the time.
+Another challenge was creating a stable network connection between the EmotiBit and the Serrala-KI-Server. This was necessary so that the vital data recorded by the EmotiBit could be transferred and analyzed. A connection between Unity and the AdminPanel also had to be created so Unity could receive the three stress types (physical, emotional and cognitive) sent by the AdminPanel. To achieve this, scripts from the KeepCool project had to be studied and adapted.
+
+The data flow works as follows:
+1. The EmotiBit records the player's vital signs.
+2. The Serrala-KI-Server receives and analyzes the vital data.
+3. The AdminPanel receives the evaluated data.
+4. The AdminPanel sends the three stress types to Unity.
+
+For some team members, Unity was a completely new environment at the start of the project. By learning and working together, they were able to understand the engine and contribute to the development of the project. Another challenge was organizing the team's workflow. At the beginning, development was sometimes more sequential, meaning that only one person worked on certain tasks at a time. Over time, the team improved communication and task distribution which resulted in a more efficient workflow.
 {{</section>}}
 
 
