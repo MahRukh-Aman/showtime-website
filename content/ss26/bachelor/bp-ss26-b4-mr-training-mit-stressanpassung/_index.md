@@ -2,7 +2,7 @@
 
 
 project_id = "B4"
-title = "Mixed Reality Training"
+title = "Virtual Reality Training"
 
 # subtitle erscheint auf Übersichtsseite und Projektseite direkt unter dem Titel.
 # kurzer 2. titel, der klar über den Inhalt des Projektes informiert
@@ -77,7 +77,7 @@ For some team members, Unity was a completely new environment at the start of th
 
 
 {{<section title="Team">}}
-We are a team of five students. Each person worked on programming, design, 3D models and system integration. We had to work closely together because all parts of the project depend on each other.
+We are a team of five students. Each team member was responsible for their own tasks and completed them independently. Our work included research, programming, 3D modeling and system integration. We worked closely together because all parts of the project depended on each other, so communication and teamwork were important throughout the project.
 {{</section>}}
 
 {{<gallery>}}
