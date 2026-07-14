@@ -85,7 +85,7 @@ We are a team of five students. Each team member was responsible for their own t
 {{<team-member image="homam.jpg" name="Homam Mousa">}}
 {{<team-member image="jasmine.jpg" name="Jasmin Bindemann">}}
 {{<team-member image="pauline.jpg" name="Pauline Wölfel">}}
-{{<team-member image="mahRukh.jpg" name="Mah Rukh Aman">}}
+{{<team-member image="mahrukh.jpg" name="Mah Rukh Aman">}}
 {{</gallery>}}
 
 
