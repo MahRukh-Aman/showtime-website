@@ -37,7 +37,7 @@ website_link = ""
 +++
 
 
-{{<image src="Model1.jpg" alt="Alt text for image">}}
+{{<image src="model1.jpg" alt="Alt text for image">}}
 
 
 {{<section title="Project Concept">}}
@@ -55,7 +55,7 @@ A space station is damaged after a micrometeorite impact. Important systems stop
 {{<section title="Gameplay">}}
 The player explores a damaged space station in VR and completes different repair tasks such as connecting cables, solving riddles and restoring navigation. While doing this, the player moves through a dangerous environment with limited oxygen and constant time pressure. Extra tasks can appear during the mission, so the player has to quickly decide what to focus on while everything feels unstable.
 {{</section>}}
-{{<image src="Riddle.jpg" alt="Alt text for image">}}
+{{<image src="riddle.jpg" alt="Alt text for image">}}
 
 {{<section title="Adaptive Stress System">}}
 The experience changes while the player is playing. A sensor called EmotiBit is used to track vital body signals and gives information about the player’s current state. Together with how the player performs in the game, the system adjusts things like puzzle difficulty, timers and environmental effects. The goal is to keep the game challenging but still playable and engaging.
@@ -85,7 +85,7 @@ We are a team of five students. Each team member was responsible for their own t
 {{<team-member image="homam.jpg" name="Homam Mousa">}}
 {{<team-member image="jasmine.jpg" name="Jasmin Bindemann">}}
 {{<team-member image="pauline.jpg" name="Pauline Wölfel">}}
-{{<team-member image="mahRukh.jpg" name="Mah Rukh Aman">}}
+{{<team-member image="mahrukh.jpg" name="Mah Rukh Aman">}}
 {{</gallery>}}
 
 
