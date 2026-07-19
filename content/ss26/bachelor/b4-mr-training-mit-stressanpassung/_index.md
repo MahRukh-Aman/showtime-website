@@ -37,40 +37,43 @@ website_link = ""
 +++
 
 
-{{<image src="model1.jpg" alt="Alt text for image">}}
+{{<image src="model1.jpg" alt="3D model of the space station" caption="3D model of the space station">}}
 
 
 {{<section title="Project Concept">}}
 The assignment was to develop a Mixed Reality (MR), Augmented Reality (AR) or Virtual Reality (VR) training experience that places the player under cognitive, emotional or physical stress. An EmotiBit sensor is used to track the player's vital body signals. 
 
-Our team came up with the idea of a Virtual Reality space station repair mission that combines all three types of stress into a single immersive training experience.
+Our team chose to develop a Virtual Reality space station repair mission that combines all three types of stress into a single immersive training experience.
 {{</section>}}
 
 
 {{<section title="The Mission">}}
-A space station is damaged after a micrometeorite impact. Important systems stop working and communication is lost. The player is sent outside the station to find the damage and repair the systems.
+A space station is damaged after an asteroid impact. Important systems stop working and communication is lost. The player is sent outside the station to find the damage and repair the systems.
 {{</section>}}
 
 
 {{<section title="Gameplay">}}
 The player explores a damaged space station in VR and completes different repair tasks such as connecting cables, solving riddles and restoring navigation. While doing this, the player moves through a dangerous environment with limited oxygen and constant time pressure. Extra tasks can appear during the mission, so the player has to quickly decide what to focus on while everything feels unstable.
 {{</section>}}
-{{<image src="riddle.jpg" alt="Alt text for image">}}
+{{<image src="riddle.jpg" alt="Close-up showing several puzzles." caption="Close-up of the puzzle area">}}
 
 {{<section title="Adaptive Stress System">}}
-The experience changes while the player is playing. A sensor called EmotiBit is used to track vital body signals and gives information about the player’s current state. Together with how the player performs in the game, the system adjusts things like puzzle difficulty, timers and environmental effects. The goal is to keep the game challenging but still playable and engaging.
-{{</section>}}
-
-
-{{<section title="Development & Challenges">}}
-One challenge was finding the right level of detail for the 3D models so they looked good and matched the overall style of the project. Several iterations were needed to arrange the UVs in a way that avoided blurry textures in areas where the player spends most of the time.
-Another challenge was creating a stable network connection between the EmotiBit and the Serrala-KI-Server. This was necessary so that the vital data recorded by the EmotiBit could be transferred and analyzed. A connection between Unity and the AdminPanel also had to be created so Unity could receive the three stress types (physical, emotional and cognitive) sent by the AdminPanel. To achieve this, scripts from the KeepCool project had to be studied and adapted.
+The experience changes while the player is playing. A sensor called EmotiBit is used to track the player's vital body signals and provides information about the player's current state. The recorded data is sent to the Serrala-KI-Server, where it is analyzed. The analyzed data is then sent to the Administration Panel. Based on this data, the Administration Panel determines the player's physical, emotional and cognitive stress levels and sends them to Unity.
 
 The data flow works as follows:
 1. The EmotiBit records the player's vital signs.
 2. The Serrala-KI-Server receives and analyzes the vital data.
 3. The AdminPanel receives the evaluated data.
 4. The AdminPanel sends the three stress types to Unity.
+
+Based on the player's stress level and game performance, the system adapts timers and environmental effects during the mission. The goal is to keep the game challenging but still playable and engaging.
+{{</section>}}
+
+
+{{<section title="Development & Challenges">}}
+One challenge was finding the right level of detail for the 3D models so they looked good and matched the overall style of the project. Several iterations were needed to arrange the UVs in a way that avoided blurry textures in areas where the player spends most of the time.
+
+Another challenge was integrating the adaptive stress system into Unity. To implement the communication between the Administration Panel and Unity, scripts from the previous research project KeepCool first had to be understood and adapted for our project. Establishing reliable communication between all components required repeated testing and debugging.
 
 For some team members, Unity was a completely new environment at the start of the project. By learning and working together, they were able to understand the engine and contribute to the development of the project. Another challenge was organizing the team's workflow. At the beginning, development was sometimes more sequential, meaning that only one person worked on certain tasks at a time. Over time, the team improved communication and task distribution which resulted in a more efficient workflow.
 {{</section>}}
