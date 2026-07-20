@@ -31,7 +31,7 @@ source_link = "https://code.fki.htw-berlin.de/cm/studierendenprojekte/bp-ss26-b4
 # link to a demo site / where your project is available.
 # it's ok if it's temporary / just for the showtime, 
 # just send a pr when you take the demo site down.
-demo_link = ""
+demo_link = "https://drive.google.com/file/d/1RlTQXpj61pPFIF2VytBMePUE4RClXh03/view?usp=sharing"
 # website: if you have another project website (not demo)
 website_link = ""
 +++
