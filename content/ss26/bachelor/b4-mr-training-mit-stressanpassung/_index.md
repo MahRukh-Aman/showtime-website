@@ -6,7 +6,7 @@ title = "Virtual Reality Training"
 
 # subtitle erscheint auf Übersichtsseite und Projektseite direkt unter dem Titel.
 # kurzer 2. titel, der klar über den Inhalt des Projektes informiert
-subtitle = "With real-time adaptive stress"
+subtitle = "With real-time stress adaptation"
 
 # der claim oder auch teaser erscheint auf Übersichtsseite und Projektseite nach Titel und Subtitle
 claim = "Your state decides how the mission unfolds."
