@@ -31,7 +31,7 @@ source_link = ""
 # link to a demo site / where your project is available.
 # it's ok if it's temporary / just for the showtime, 
 # just send a pr when you take the demo site down.
-demo_link = "https://drive.google.com/file/d/1RlTQXpj61pPFIF2VytBMePUE4RClXh03/view?usp=sharing"
+demo_link = ""
 # website: if you have another project website (not demo)
 website_link = ""
 +++
@@ -55,7 +55,8 @@ A space station is damaged after an asteroid impact. Important systems stop work
 {{<section title="Gameplay">}}
 The player explores a damaged space station in VR and completes different repair tasks such as connecting cables, solving riddles and restoring navigation. While doing this, the player moves through a dangerous environment with limited oxygen and constant time pressure. Extra tasks can appear during the mission, so the player has to quickly decide what to focus on while everything feels unstable.
 {{</section>}}
-{{<image src="riddle.jpg" alt="Close-up showing several puzzles." caption="Close-up of the puzzle area">}}
+
+{{<mediathek id="e6209fd5498880a71dea27d4215726a4" title="Gameplay Demo">}}
 
 {{<section title="Adaptive Stress System">}}
 The experience changes while the player is playing. A sensor called EmotiBit is used to track the player's vital body signals and provides information about the player's current state. The recorded data is sent to the Serrala-KI-Server, where it is analyzed. The analyzed data is then sent to the Administration Panel. Based on this data, the Administration Panel determines the player's physical, emotional and cognitive stress levels and sends them to Unity.
