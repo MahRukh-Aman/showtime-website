@@ -53,7 +53,7 @@ A space station is damaged after an asteroid impact. Important systems stop work
 
 
 {{<section title="Gameplay">}}
-The player explores a damaged space station in VR and completes different repair tasks such as connecting cables, solving riddles and restoring navigation. While doing this, the player moves through a dangerous environment with limited oxygen and constant time pressure. Extra tasks can appear during the mission, so the player has to quickly decide what to focus on while everything feels unstable.
+The player explores a damaged space station in VR and completes different repair tasks such as connecting cables, solving riddles and restoring the station's energy system. While doing this, the player moves through a dangerous environment with limited oxygen and constant time pressure. Extra tasks can appear during the mission, so the player has to quickly decide what to focus on while everything feels unstable.
 {{</section>}}
 
 {{<mediathek id="e6209fd5498880a71dea27d4215726a4" title="Gameplay Demo">}}
